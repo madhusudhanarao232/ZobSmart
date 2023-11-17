@@ -8,7 +8,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class PetTest {
-
+//ok
 	@Test(priority=1)
 	public void createPet() 
 	{
