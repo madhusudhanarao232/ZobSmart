@@ -1,4 +1,4 @@
-package test;
+package apiTests;
 
 import org.json.simple.JSONObject;
 import org.testng.Assert;
