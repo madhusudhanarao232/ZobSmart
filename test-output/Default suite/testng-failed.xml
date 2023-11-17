@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumScripts.Booking">
+      <class name="apiTests.PetTest">
         <methods>
-          <include name="booking"/>
+          <include name="uplioadImg"/>
+          <include name="updatePet"/>
         </methods>
-      </class> <!-- SeleniumScripts.Booking -->
+      </class> <!-- apiTests.PetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
